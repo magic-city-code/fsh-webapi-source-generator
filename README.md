@@ -1,9 +1,12 @@
 # fsh-webapi-source-generator
 Source Generator for Full Stack Hero Web API v0.0.5-rc.
 
-This was put together fast, but it has proved to work. This project is nowhere near complete or fully functional, but it works. It's good enough for me to start further exploring Full Stack Hero web API boilerplate.
+This was put together fast, but it has proved to work. This project is nowhere near complete or fully functional, but it's good enough for me to start further exploring Full Stack Hero web API boilerplate.
 
 Thanks to [Full Stack Hero](https://github.com/fullstackhero/) for the Web API boilerplate.
+
+# Known Issues
+* The seed JSON file is not created for new entity.
 
 # Required for Each Entity
 * Enter new folder created for each entity
@@ -14,6 +17,7 @@ Thanks to [Full Stack Hero](https://github.com/fullstackhero/) for the Web API b
 
 # To Do
 * Match case in text replace.
+* The new files are based off of `Product`.
 
 # Migrations
 https://fullstackhero.net/dotnet-webapi-boilerplate/general/cli-commands/#migrations
